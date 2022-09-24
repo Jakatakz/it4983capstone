@@ -1,0 +1,455 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #2b2b2b;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* new */
+#eform {
+}
+#student_status {
+}
+#graduate-courses {
+  display: none;
+  visibility: hidden;
+}
+#undergraduate_courses {
+  visibility: hidden;
+  display: none;
+  padding: 15px;
+}
+#undergraduate_courses ul {
+  list-style-type: none;
+}
+#graduate_courses {
+  display: none;
+  visibility: hidden;
+  padding: 15px;
+}
+#graduate_courses ul {
+  list-style-type: none;
+}
+.error_message_form {
+  display: none;
+}
+#student_status {
+}
+#underneath_form_average {
+  display: block;
+  visibility: visible;
+}
+#average_result {
+  font-size: 48px;
+  visibility: visible;
+  display: block;
+}
+#courses_displayed {
+  visibility: visible;
+  display: block;
+}
+#courses_display2 {
+}
+#undergraduateid {
+}
+#undergraduate_submit {
+}
+.undergrad {
+}
+#it1000 {
+}
+#it1001 {
+}
+#it1010 {
+}
+#it1011 {
+}
+#cse3203 {
+}
+#it4213 {
+}
+#graduateid {
+}
+#grad_submit {
+}
+.grad {
+}
+#it8000 {
+}
+#it8001 {
+}
+#it8010 {
+}
+#it8011 {
+}
+#it7113 {
+}
+#it6713 {
+}
+/* Tip Nav */
+.tipNav a {
+  padding: 10px;
+  color: seashell;
+}
+.tipNav a:hover {
+  background-color: seashell;
+  color: #222;
+}
+
+/* Header */
+.header {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  background-color: #222;
+  margin: 0px; /* -5px ~ to get rid of body background color */
+}
+.header div {
+  flex: 100%;
+  padding: 10px;
+  text-align: center;
+  color: goldenrod;
+}
+.header p {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #222;
+  padding: 0px;
+  text-align: center;
+  color: goldenrod;
+  font-style: oblique;
+}
+.header img {
+  width: 15%;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 10px;
+}
+.header .headerTipNav {
+  align-self: stretch;
+  text-align: right;
+}
+
+/* Navigation bar */
+.navbar {
+  display: flex;
+  background-color: #3b3b3b;
+}
+.navbar a {
+  color: seashell;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: silver;
+  color: black;
+}
+.navbar a.active {
+  background-image: linear-gradient(180deg, #3b3b3b, goldenrod);
+}
+
+/* Main content */
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.row a:visited {
+  color: violet;
+}
+.row a:link {
+  color: gold;
+}
+.row a:hover {
+  color: goldenrod;
+}
+.row ul {
+  list-style-type: square;
+  color: goldenrod;
+}
+.row ul > li {
+}
+
+/*left column*/
+.side_left {
+  border-radius: 5px;
+  color: seashell;
+  flex: 20%;
+  padding: 10px 0px 0px 0px;
+}
+.side_left > div {
+  background-image: linear-gradient(180deg, #2b2b2b, #444);
+  border: solid goldenrod 1px;
+  margin: 0% 0% 2% 0%;
+  padding: 5px;
+}
+div.side_left p {
+  font-size: 23px;
+}
+div.side_left h1 {
+  color: goldenrod;
+  text-align: center;
+}
+.side_left div > hr {
+  width: 85%;
+  border: 5px solid #5b5b5b;
+  border-radius: 10px;
+}
+.side_left ul > hr {
+  margin: auto;
+  width: 100%;
+  border: 5px solid #555;
+  border-radius: 10px;
+}
+
+/* middle column */
+.middle {
+  color: seashell;
+  flex: 60%;
+  padding: 10px;
+  margin: 0% 0% 0% 0%;
+}
+.middle h1 {
+  color: goldenrod;
+  text-align: center;
+}
+.middle > div {
+  background-image: linear-gradient(to left, rgba(218, 165, 32, 0.11), #2b2b2b);
+  border: solid goldenrod 1px;
+  border-radius: 5px;
+}
+.middle img {
+  padding: 10px;
+  text-align: center;
+  display: block;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.middle p {
+  line-height: 1.6;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.middle .labrequired a {
+  color: cyan;
+}
+.middle .labrequired a:active {
+  background-image: linear-gradient(180deg, #3b3b3b, goldenrod);
+}
+.middle .labrequired a:hover {
+  color: goldenrod;
+}
+.middle .labrequiredheader > p {
+  font-weight: 200;
+  font-size: 25px;
+  color: goldenrod;
+}
+.middle .labrequired span {
+  color: seashell;
+  font-size: 16px;
+}
+.middleHaiku p + p {
+  font-style: oblique;
+}
+.middle-eligibility-form {
+  background-color: slateblue;
+  border: solid yellow 1px;
+}
+.middle-eligibility-form select {
+  background-color: slategray;
+}
+.middle-eligibility-form select option {
+  background-color: springgreen;
+  cursor: pointer;
+}
+.middle-eligibility-form option:hover {
+  background-color: tomato;
+}
+#eligibility-form {
+  border: solid red 1px;
+}
+
+/* about us */
+.aboutus_faculty_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.aboutus_faculty_container > div {
+  margin: 0.5%;
+  text-align: center;
+  width: 32.3%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px seashell;
+  border-radius: 5px;
+}
+.aboutus_faculty_container img {
+  width: 100%;
+  height: 400px;
+}
+.aboutus_facultyinformation {
+  border: solid goldenrod 1px;
+  background-color: #444;
+  border-radius: 5px;
+  overflow: auto;
+  width: 100%;
+  max-height: 250px;
+}
+.aboutus_facultyinformation a:link {
+  color: goldenrod;
+}
+.span {
+  color: goldenrod;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.aboutus_facultyinformation hr {
+  width: 90%;
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.aboutus_facultyinformation h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+.aboutus_facultyinformation h2 a:link {
+  color: seashell;
+  text-decoration: none;
+}
+.aboutus_facultyinformation h2 a:hover {
+  font-size: 25px;
+  color: goldenrod;
+}
+.aboutus_facultyinformation h2 a:visited {
+  color: seashell;
+  text-decoration: none;
+}
+.aboutus_facultyinformation p {
+  margin: 0;
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* right column */
+.side_right {
+  border-radius: 5px;
+  color: seashell;
+  flex: 20%;
+  padding: 10px 0px 0px 0px;
+}
+.side_right > div {
+  background-image: linear-gradient(180deg, #2b2b2b, #444);
+  border: solid goldenrod 1px;
+  margin: 0% 0% 3% 0%;
+  padding: 5px;
+  color: goldenrod;
+  text-align: center;
+}
+div.side_right h1 {
+  color: goldenrod;
+  text-align: center;
+}
+.side_right div > hr {
+  width: 85%;
+  border: 5px solid #444;
+  border-radius: 10px;
+}
+
+/* projects */
+/*table*/
+/*table for assignments/projects*/
+#projects {
+  margin: 0% 0.5% 0% 0.5%;
+  border-collapse: collapse;
+  width: 99%;
+  empty-cells: show;
+}
+#projects a {
+  text-decoration: none;
+}
+#projects td,
+#projects th {
+  border: solid goldenrod 1px;
+  padding: 10px;
+}
+#projects tr:nth-child(even) {
+  background-color: #444;
+}
+#projects td:hover {
+  background-color: rgba(220, 20, 60, 0.144);
+}
+#projects th {
+  padding: none;
+  text-align: left;
+  background-color: seagreen;
+  color: seashell;
+}
+#projects a:link {
+  color: goldenrod;
+}
+#projects a:visited {
+  color: goldenrod;
+}
+#projects a:hover {
+  color: red;
+}
+h2.projects-description {
+  text-decoration-line: underline;
+  text-align: center;
+  color: goldenrod;
+}
+hr.projects-description {
+  border: solid #444 3px;
+  border-radius: 10px;
+}
+
+/* Milestone 1 */
+#single_book_json {
+}
+
+.single_book_json img {
+  width: 150px;
+  display: block;
+  float: left;
+  margin-left: 25%;
+  padding: 0%;
+  padding-right: 5px;
+  /*
+  margin-left: 25%;
+  margin-right: auto;
+  */
+}
+#sbj_volumeInfo {
+}
+#sbj_layerInfo {
+}
+#sbj_salesInfo {
+}
+#sbj_accessInfo {
+}
+
+.book_bold {
+  color: goldenrod;
+  font-weight: 900;
+  font-size: large;
+}
+
+/* Footer */
+.footer {
+  /* with body min height: 100vh, display:flex, and flex-direction:column, 
+    this will keep the footer at the bottom with margin-top: auto 
+    https://moderncss.dev/keep-the-footer-at-the-bottom-flexbox-vs-grid/*/
+  margin-top: auto;
+  padding: 15px;
+  background: #1b1b1b;
+  text-align: center;
+  color: seashell;
+}

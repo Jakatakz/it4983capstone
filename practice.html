@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice page</title>
+    <link rel="stylesheet" a href="capstone.css" />
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  </head>
+  <body>
+    <h1>Practice page</h1>
+    <div>
+      <p id="test_a"></p>
+      <p id="test_b">test bb</p>
+      <p id="test_c"></p>
+      <div id="a"></div>
+      <div id="a"></div>
+      <div id="a"></div>
+    </div>
+    <script>
+      var product = {
+        name: "computer",
+        price: 2000,
+      };
+
+      var price = JSON.parse(product.price);
+      console.log(price);
+      $("#test_c").text("the price is: " + price);
+      //$("#test_c").html("<p>hello</p>");
+      $("div[a]").html("<p>yess</p>");
+    </script>
+    <script src="p1js.js"></script>
+  </body>
+</html>

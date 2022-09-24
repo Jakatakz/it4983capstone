@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #2b2b2b;
+  color: green;
+}
+
+body #test_a {
+  background-color: tan;
+  color: seashell;
+}
+#test_b {
+  background-color: yellow;
+  color: red;
+}

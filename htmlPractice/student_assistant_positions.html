@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eligibility Form</title>
+    <link rel="stylesheet" a href="../cssPractice/jsp_1.css" />
+    <!-- JS file src -->
+    <script defer src="../jsPractice/jsp_1.js"></script>
+    <!-- defer makes it so it loads after body -->
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div>
+        <img src="../jsp_images/itlogo.png" alt="itlogo.png" />
+      </div>
+      <div>
+        <h1>IT 4403 Advanced Web and Mobile App</h1>
+        <p>Jack Morris</p>
+      </div>
+      <div class="headerTipNav tipNav">
+        <a href="https://jakatakz.github.io/WebDevSite/">My GitHub Pages</a>
+        <a href="https://github.com/Jakatakz">My GitHub</a>
+      </div>
+    </div>
+
+    <!-- Navigation bar -->
+    <div class="navbar">
+      <a href="../index.html">Home</a>
+      <a href="about_us.html">About Us</a>
+      <a href="projects.html">Projects</a>
+      <a class="active" href="student_assistant_positions.html"
+        >Student Assistant Positions</a
+      >
+    </div>
+
+    <!-- flexible grid content -->
+    <div class="row">
+      <!-- left bar -->
+      <div class="side_left">
+        <!-- News -->
+        <div>
+          <h1>News</h1>
+          <hr />
+          <ul>
+            <li>
+              <a href="https://www.theonion.com/"
+                >Putin learns Putin behind plot to assassinate Putin</a
+              >
+            </li>
+            <li>
+              <a href="https://www.theonion.com/"
+                >How to fight back against aggressive ducks.</a
+              >
+            </li>
+            <li>
+              <a href="https://www.theonion.com/">Disney buys Everything</a>
+            </li>
+            <li>
+              <a href="https://www.theonion.com/"
+                >CEO immediately calls back person with BS in IT after seeing
+                amazing website</a
+              >
+            </li>
+            <li>
+              <a href="https://www.theonion.com/"
+                >Braves lose 3-4 to LA Dodgers somehow</a
+              >
+            </li>
+            <li>
+              <a href="https://www.theonion.com/"
+                >Human Head found in Hamburger</a
+              >
+            </li>
+            <li><a href="https://www.theonion.com/">Robots and Lizards</a></li>
+            <br />
+          </ul>
+        </div>
+      </div>
+      <!-- middle bar -->
+      <div class="middle">
+        <div>
+          <div>
+            <p>
+              link to my old site css that used float instead of flex
+              <a href="../cssPractice/test.css">test.css</a>
+            </p>
+            <p>
+              This page lets the user enter in their student status and grades
+              to see if they would be eligable for the respective student
+              assistant positions. If they are eligable, there is a div that
+              links a fake form below the form and other relevant information.
+              There is user input checking so they cannot enter wrong
+              information. If they are not eligable other information below the
+              form is displayed with relevant information and no fake form link.
+            </p>
+          </div>
+          <form id="eligibility-form" action="" method="GET">
+            <div class="middle-eligibility-form">
+              <h1>Eligibility Form</h1>
+              <fieldset>
+                <legend>Student assistant position eligibility form</legend>
+                <label for="student_status" name="student_status"
+                  >Select student status:</label
+                >
+                <select
+                  id="student_status"
+                  name="student_status"
+                  onchange="myFF()"
+                >
+                  <option disabled selected value>
+                    -- Select student status --
+                  </option>
+                  <option id="undergraduateid" value="undergraduate">
+                    Undergraduate
+                  </option>
+                  <option id="graduateid" value="graduate">graduate</option>
+                </select>
+
+                <div id="courses_displayed"></div>
+                <div id="courses_display2">
+                  <div id="undergraduate_courses">
+                    <p class="error_message_form"></p>
+                    <ul>
+                      <li>
+                        <label for="it1000" name="it1000">it1000</label>
+                        <input
+                          type="text"
+                          class="undergrad"
+                          id="it1000"
+                          name="it1000"
+                          placeholder="Grade"
+                          required
+                        />
+                      </li>
+                      <li>
+                        <label for="it1001" name="it1001">it1001</label>
+                        <input
+                          type="text"
+                          class="undergrad"
+                          id="it1001"
+                          name="it1001"
+                          placeholder="Grade"
+                          required
+                        />
+                      </li>
+                      <li>
+                        <label for="it1010" name="it1010">it1010</label>
+                        <input
+                          type="text"
+                          class="undergrad"
+                          id="it1010"
+                          name="it1010"
+                          placeholder="Grade"
+                          required
+                        />
+                      </li>
+                      <li>
+                        <label for="it1011" name="it1011">it1011</label>
+                        <input
+                          type="text"
+                          class="undergrad"
+                          id="it1011"
+                          name="it1011"
+                          placeholder="Grade"
+                          required
+                        />
+                      </li>
+                      <li>
+                        <label for="cse3203" name="cse3203"
+                          >CSE 3203 Mobile System Overview</label
+                        >
+                        <input
+                          type="text"
+                          class="undergrad"
+                          id="cse3203"
+                          name="cse3203"
+                          placeholder="Grade"
+                          required
+                        />
+                      </li>
+                      <li>
+                        <label for="it4213" name="it4213"
+                          >IT 4213 Mobile Web Development</label
+                        >
+                        <input
+                          type="text"
+                          class="undergrad"
+                          id="it4213"
+                          name="cse3203"
+                          placeholder="Grade"
+                          required
+                        />
+                      </li>
+                      <li>
+                        <label
+                          for="undergraduate_submit"
+                          name="undergraduate_Submit"
+                        ></label>
+                        <input
+                          type="submit"
+                          name="newSub"
+                          id="undergraduate_submit"
+                          onclick="processForm('undergrad'); return false;"
+                          value="Evaluate"
+                        />
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div id="graduate_courses">
+                    <ul>
+                      <li>
+                        <label for="it8000" name="it8000">IT8000</label>
+                        <input
+                          type="text"
+                          class="grad"
+                          id="it8000"
+                          name="it8000"
+                          placeholder="Grade"
+                        />
+                      </li>
+                      <li>
+                        <label for="it8001" name="it8001">IT8001</label>
+                        <input
+                          type="text"
+                          class="grad"
+                          id="it8001"
+                          name="it8001"
+                          placeholder="Grade"
+                        />
+                      </li>
+                      <li>
+                        <label for="it8010" name="it8010">IT8010</label>
+                        <input
+                          type="text"
+                          class="grad"
+                          id="it8010"
+                          name="it8010"
+                          placeholder="Grade"
+                        />
+                      </li>
+                      <li>
+                        <label for="it8011" name="it8011">IT8011</label>
+                        <input
+                          type="text"
+                          class="grad"
+                          id="it8011"
+                          name="it8011"
+                          placeholder="Grade"
+                        />
+                      </li>
+                      <li>
+                        <label for="it7113" name="it7113"
+                          >IT 7113 Data Visualization</label
+                        >
+                        <input
+                          type="text"
+                          class="grad"
+                          id="it7113"
+                          name="it7113"
+                          placeholder="Grade"
+                        />
+                      </li>
+                      <li>
+                        <label for="it6713" name="it6713"
+                          >IT 6713 Business Intelligence</label
+                        >
+                        <input
+                          type="text"
+                          class="grad"
+                          id="it6713"
+                          name="it6713"
+                          placeholder="Grade"
+                        />
+                      </li>
+                      <li>
+                        <label for="grad_submit" name="graduate_submit"></label>
+                        <input
+                          type="submit"
+                          id="grad_submit"
+                          onclick="processForm('grad'); return false;"
+                          value="Evaluate"
+                        />
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+          </form>
+          <div id="underneath_form_average">
+            <p id="average_result"></p>
+          </div>
+        </div>
+      </div>
+      <!-- right bar -->
+      <div class="side_right">
+        <div>
+          <h1>Contact</h1>
+          <hr />
+          <p>Brightspace D2L</p>
+          <p>(555) 555-5555</p>
+          <p>
+            <a href="mailto:studentd2lemail@students.kennesaw.edu"
+              >studentd2lemail@students.kennesaw.edu</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>IT 4403: Advanced Web and Mobile App</p>
+    </div>
+  </body>
+</html>

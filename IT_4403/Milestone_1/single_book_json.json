@@ -1,0 +1,95 @@
+{
+  "kind": "books#volume",
+  "id": "Wfan6L9RGgYC",
+  "etag": "wNadF5jqc6w",
+  "selfLink": "https://www.googleapis.com/books/v1/volumes/Wfan6L9RGgYC",
+  "volumeInfo": {
+    "title": "The Modern Web",
+    "subtitle": "Multi-device Web Development with HTML5, CSS3, and JavaScript",
+    "authors": [
+      "Peter Gasston"
+    ],
+    "publisher": "No Starch Press",
+    "publishedDate": "2013",
+    "description": "\u003cp\u003e\u003cb\u003eA Guide to Modern Web Development\u003c/b\u003e\u003cbr\u003e\u003c/p\u003e\u003cp\u003eToday's web technologies are evolving at near-light speed, bringing the promise of a seamless Internet ever closer to reality. When users can browse the Web on a three-inch phone screen as easily as on a fifty-inch HDTV, what's a developer to do?\u003c/p\u003e\u003cp\u003ePeter Gasston's \u003ci\u003eThe Modern Web\u003c/i\u003e will guide you through the latest and most important tools of device-agnostic web development, including HTML5, CSS3, and JavaScript. His plain-English explanations and practical examples emphasize the techniques, principles, and practices that you'll need to easily transcend individual browser quirks and stay relevant as these technologies are updated.\u003c/p\u003e\u003cp\u003eLearn how to:\u003c/p\u003e\u003cp\u003e* Plan your content so that it displays fluidly across multiple devices\u003cbr\u003e* Design websites to interact with devices using the most up-to-date APIs, including Geolocation, Orientation, and Web Storage\u003cbr\u003e* Incorporate cross-platform audio and video without using troublesome plug-ins\u003cbr\u003e* Make images and graphics scalable on high-resolution devices with SVGUse powerful HTML5 elements to design better forms\u003c/p\u003e\u003cp\u003eTurn outdated websites into flexible, user-friendly ones that take full advantage of the unique capabilities of any device or browser. With the help of \u003ci\u003eThe Modern Web\u003c/i\u003e, you'll be ready to navigate the front lines of device-independent development.\u003c/p\u003e",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_10",
+        "identifier": "1593274874"
+      },
+      {
+        "type": "ISBN_13",
+        "identifier": "9781593274870"
+      }
+    ],
+    "readingModes": {
+      "text": true,
+      "image": true
+    },
+    "pageCount": 264,
+    "printedPageCount": 266,
+    "dimensions": {
+      "height": "24.00 cm",
+      "width": "17.80 cm",
+      "thickness": "1.50 cm"
+    },
+    "printType": "BOOK",
+    "categories": [
+      "Computers / Web / Design",
+      "Computers / Software Development & Engineering / General",
+      "Computers / Programming Languages / JavaScript",
+      "Computers / Programming Languages / HTML",
+      "Computers / Web / Web Programming"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 3,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.2.3.0.preview.3",
+    "panelizationSummary": {
+      "containsEpubBubbles": false,
+      "containsImageBubbles": false
+    },
+    "imageLinks": {
+      "smallThumbnail": "http://books.google.com/books/content?id=Wfan6L9RGgYC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73ygKne1J-zSk9fCKQky1uszsM51KZQDNHu1f232OhajS9iN3U2BISKIPwxGnTcnb6aTr7-KDxu4EEqmsgyTCZqmqn5hS2MqOqIVMd8adIHvyz5Hp5xV-O8z-ehorKQoVKK20GV&source=gbs_api",
+      "thumbnail": "http://books.google.com/books/content?id=Wfan6L9RGgYC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70iZ6c3I5jD8TRtMn2KpJpEQCvCvE4kRRCYBCI1XWhZeM_N6g-7MyAlsuntAWnOcLy4UVENUDcWInd_GKRbOZu3A7L5vPwZtVmr4J0f-NKRdiIpE7ZO0VVx1jf_OBNixobP8mhq&source=gbs_api",
+      "small": "http://books.google.com/books/content?id=Wfan6L9RGgYC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72iKyK1806Y5hI7GhTKVgt_iDyTSUaVpaEoUSIAOAFu9oOZ7PsZtoG8Q1Qs12FPzXpd7PfuIt2isZH7j_DjZvgO94Iuw4RC8OpkiUK8vPFdOXu7_MraMwbWUL6FRCFRJQ_VgsT7&source=gbs_api",
+      "medium": "http://books.google.com/books/content?id=Wfan6L9RGgYC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE733z9TkqUnNG-hHxOJvVtdqXc36gE4HrGdSsEcOUFmHGsPdoh9quYUZd0QXsK-sWtrXtl-2y-_DRB0GXBeABAahGJ65fqd5niKuZzGVwCZbCn5EYrsnZ0DvVfgdkXf6dXtDmcld&source=gbs_api",
+      "large": "http://books.google.com/books/content?id=Wfan6L9RGgYC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70uS5WR1GxyfjjNcl7qrfM0mbEcWixAB0UbCZyyiNSwQ3KBIaAMZjNs2sXXst6tb953bhT7cwhsF5Fc63ajQAaPhdiLBdWrOlJgHGh-K5iy7DB_peo8mmCnPgAtXrlnHcOkTsY5&source=gbs_api",
+      "extraLarge": "http://books.google.com/books/content?id=Wfan6L9RGgYC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73c-STJlW_cx3n44QHYcn9oqBLI53sRS1T0epbY7pfD6wvdeSHGogeAW3tvZxdHSxkG4zDOyRIb9TwM5YIpjXEZdA9eSllsjhi6bfr2wNvG-2FtzaL4PtH29uZFVixp9vx-4Hjf&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=Wfan6L9RGgYC&hl=&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=Wfan6L9RGgYC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Wfan6L9RGgYC"
+  },
+  "layerInfo": {
+    "layers": [
+      {
+        "layerId": "geo",
+        "volumeAnnotationsVersion": "8"
+      }
+    ]
+  },
+  "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+  },
+  "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+      "isAvailable": true
+    },
+    "pdf": {
+      "isAvailable": true
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=Wfan6L9RGgYC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+  }
+}

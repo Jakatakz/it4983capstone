@@ -1,0 +1,335 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #2b2b2b;
+}
+
+/*header*/
+.nav1 {
+  width: 100%;
+  float: left;
+}
+
+/*tip navigation*/
+.tipnav {
+  position: absolute;
+  z-index: 1;
+  width: 10%;
+  right: 0;
+}
+.tipnav a {
+  float: right;
+  color: seashell;
+  padding: 13px 8px;
+  text-decoration: none;
+}
+.tipnav a:hover {
+  border-radius: 10px;
+  background-color: silver;
+  color: black;
+}
+.tipnav a.active {
+  border-radius: 10px;
+  background-color: goldenrod;
+  color: black;
+}
+
+/* h1 header */
+.header {
+  width: 100%;
+  float: left;
+  color: goldenrod;
+  text-align: center;
+  padding: 10px;
+}
+.header p {
+  font-style: oblique;
+}
+.header img {
+  position: absolute;
+  float: left;
+  width: 5%;
+  margin-left: -33.3%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px;
+}
+.header a:link {
+  color: goldenrod;
+}
+.header a img:hover {
+  color: gold;
+}
+.header a:visited {
+  color: goldenrod;
+}
+
+/*horizontal menu navigation bar at top */
+.topnav {
+  background-color: #444;
+  float: left;
+  width: 100%;
+}
+.topnav a.homemargin {
+  margin-left: 0.6%;
+}
+.topnav a {
+  border-radius: 7px;
+  float: left;
+  display: block;
+  color: seashell;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-image: linear-gradient(to top, goldenrod, #444);
+}
+.topnav a.active {
+  background-image: linear-gradient(to top, goldenrod, #444);
+}
+
+/* content*/
+/* layout column*/
+
+/*all columns container*/
+.wholec {
+  background-color: #2b2b2b;
+  float: left;
+  width: 100%;
+  padding: 10px 10px 50px 10px;
+}
+
+/* middle column container */
+.mainc {
+  padding: 0px 10px 0px 10px;
+  background-color: #2b2b2b;
+  float: left;
+  width: 62.5%;
+}
+/*center column*/
+.column {
+  font-size: 20px;
+  text-align: auto;
+  width: 100%;
+  background-image: linear-gradient(to left, rgba(218, 165, 32, 0.11), #2b2b2b);
+  color: seashell;
+  float: left;
+  padding: 15px;
+  border: solid goldenrod 1px;
+  border-radius: 10px;
+}
+.haiku p + p {
+  font-style: oblique;
+  font-size: 16px;
+  color: bisque;
+  word-spacing: 6px;
+  line-height: 200%;
+  margin-right: 8%;
+}
+.labrequired p {
+  color: red;
+  font-size: 20px;
+}
+.column img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.column p {
+  line-height: 1.6;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.columnp2 {
+  margin-top: 60px;
+  line-height: 1.6;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 20px;
+  font-weight: 900;
+  color: goldenrod;
+}
+
+/* side bar columns*/
+.columnsidebar {
+  background-image: linear-gradient(#2b2b2b, #444);
+  color: seashell;
+  padding: 10px;
+  width: 18.75%;
+  height: 600px;
+  border-radius: 10px;
+  border: solid goldenrod 1px;
+}
+.columnsidebarright {
+  float: right;
+}
+.columnsidebarleft {
+  float: left;
+}
+.columnsidebar h1 {
+  color: goldenrod;
+  text-align: center;
+}
+.columnsidebar hr {
+  width: 85%;
+  border: 5px solid #444;
+  border-radius: 10px;
+}
+.columnsidebar p {
+  color: seashell;
+  text-align: center;
+}
+
+.columnsidebar ul {
+  text-align: left;
+  border-radius: 10px;
+  color: goldenrod;
+  list-style-type: square;
+}
+.columnsidebar li {
+  padding: 8px;
+}
+.columnsidebar a:visited {
+  color: violet;
+}
+.columnsidebar a:link {
+  color: goldenrod;
+}
+
+/* creates a new row after the colums are created basically*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* aboutus center columns*/
+.aboutus-column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 0px;
+  padding: 0 8px;
+  height: 900px;
+  position: relative;
+}
+.aboutus-column img {
+  width: 100%;
+  box-shadow: 0px 0px 10px seashell;
+}
+.aboutus-container h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+.aboutus-container h2 a:link {
+  color: seashell;
+  text-decoration: none;
+}
+.aboutus-container h2 a:hover {
+  font-size: 25px;
+  color: goldenrod;
+}
+.aboutus-container h2 a:visited {
+  color: seashell;
+  text-decoration: none;
+}
+.aboutus-container p {
+  margin: 0;
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+}
+.aboutus-container {
+  border: solid goldenrod 3px;
+  background-color: #444;
+  border-radius: 5px;
+  padding: 0 16px;
+  position: absolute;
+  bottom: 0px;
+  width: 90%;
+  overflow: auto;
+  max-height: 190px;
+}
+.aboutus-container a:link {
+  color: goldenrod;
+}
+.span {
+  color: goldenrod;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.aboutus-container hr {
+  width: 90%;
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.aboutus-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*table for assignments/projects*/
+#projects {
+  border-collapse: collapse;
+  width: 100%;
+  empty-cells: show;
+}
+#projects a {
+  text-decoration: none;
+}
+#projects td,
+#projects th {
+  border: solid goldenrod 1px;
+  padding: 10px;
+}
+#projects tr:nth-child(even) {
+  background-color: #444;
+}
+#projects td:hover {
+  background-color: rgba(220, 20, 60, 0.144);
+}
+#projects th {
+  padding: none;
+  text-align: left;
+  background-color: seagreen;
+  color: seashell;
+}
+#projects a:link {
+  color: goldenrod;
+}
+#projects a:visited {
+  color: goldenrod;
+}
+#projects a:hover {
+  color: red;
+}
+h2.projects-description {
+  text-decoration-line: underline;
+  text-align: center;
+  color: goldenrod;
+}
+hr.projects-description {
+  border: solid #444 3px;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  height: 3%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-size: 16px;
+  text-align: auto;
+  width: 100%;
+  background-color: #1b1b1b;
+  color: seashell;
+  float: left;
+  padding: 0 0 5px 10px;
+}
