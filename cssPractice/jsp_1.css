@@ -451,6 +451,7 @@ hr.projects-description {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 .iframeborder {
   border: 1px solid goldenrod;
