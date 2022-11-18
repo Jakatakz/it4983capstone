@@ -441,6 +441,15 @@ hr.projects-description {
   font-weight: 900;
   font-size: large;
 }
+.lab4a_bar_seperator {
+  width: 85%;
+  border: 5px solid goldenrod;
+  border-radius: 2px;
+}
+
+.iframeborder {
+  border: 1px solid goldenrod;
+}
 
 /* Footer */
 .footer {
