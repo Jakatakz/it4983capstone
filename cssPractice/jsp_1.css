@@ -446,10 +446,14 @@ hr.projects-description {
   border: 5px solid goldenrod;
   border-radius: 2px;
 }
-
+.embedcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .iframeborder {
   border: 1px solid goldenrod;
-  margin-left: 18.5%;
 }
 
 /* Footer */
